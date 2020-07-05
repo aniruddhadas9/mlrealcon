@@ -30,7 +30,23 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              {
+                "input": "node_modules/jquery/dist/jquery.min.js"
+              },
+              {
+                "input": "src/assets/js/browser.min.js"
+              },
+              {
+                "input": "src/assets/js/breakpoints.min.js"
+              },
+              {
+                "input": "src/assets/js/util.js"
+              },
+              {
+                "input": "src/assets/js/main.js"
+              }
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +139,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mlrealcon"
+    }
+  },
+  "defaultProject": "mlrealcon",
+  "cli": {
+    "analytics": "f617a301-75dd-4d7e-9bd9-1aeb61b78b39"
+  }
 }
