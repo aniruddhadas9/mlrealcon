@@ -6,17 +6,21 @@ import { AppComponent } from './components/app/app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import {CarouselModule} from 'ngx-bootstrap/carousel';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
