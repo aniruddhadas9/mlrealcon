@@ -15,6 +15,7 @@ handlers:
 
 # Temporary setting to keep gcloud from uploading not required files for deployment
 skip_files:
+  - ^\.angular$
   - ^node_modules$
   - ^app\.yaml
   - ^README\..*
