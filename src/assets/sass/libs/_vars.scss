@@ -1,16 +1,16 @@
-// Misc.
+/* Misc. */
 	$misc: (
 		z-index-base:		10000
 	);
 
-// Duration.
+/* Duration. */
 	$duration: (
 		menu:				0.5s,
 		banner:				1s,
 		transition:			0.2s
 	);
 
-// Size.
+/* Size. */
 	$size: (
 		border-radius:		4px,
 		element-height:		3.25rem,
@@ -21,7 +21,7 @@
 		menu-width:			20rem
 	);
 
-// Font.
+/* Font. */
 	$font: (
 		family:				('Raleway', Arial, Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
@@ -31,7 +31,7 @@
 		weight-bold:		600
 	);
 
-// Palette.
+/* Palette. */
 	$palette: (
 		bg:					#ffffff,
 		fg:					#444444,
